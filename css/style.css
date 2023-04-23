@@ -124,7 +124,7 @@ hr.solid {
 
 @media screen and (max-width: 768px) {
     .home-text {
-        top: 24%;
+        top: 20%;
     }
     .big-heading{
         font-size: 1.1rem;
