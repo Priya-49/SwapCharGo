@@ -141,25 +141,32 @@ hr.solid {
     .navbar-brand,.offcanvas-brand{
         font-size:1.1rem;
     }
-   .home-btn,p,.card-btn{
-        font-size: 0.5rem;
+   p,.nav-txt{
+        font-size: 0.8rem;
         padding: 1%;
    }
    #browse{
     padding: 0;
    }
    h2{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
    }
    .browse-text{
-    padding:2rem 0.5rem 0;
+    padding:2rem 0.8rem 0;
    }
    .browse-column{
-    padding: 0 1.5rem 0;
+    padding: 0 2rem 1rem;
    }
    #about{
     margin:20px;
    }
+   .title-img{
+    width:500px;
+  }
+   .home-btn,.card-btn{
+    font-size:0.5rem;
+    padding: 1%;
+    }     
 }
 
 
