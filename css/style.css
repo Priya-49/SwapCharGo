@@ -121,19 +121,47 @@ hr.solid {
     border-top: 3px solid #aba9a9;
     margin:0.1rem;
 }
-/* .offcanvas-header{
-    padding:10px;
-} */
 
-/* .map-search{
- background-color: bisque;
-} */
-/* @media(max-width:1030px){
-    .home-text{
-        font-size: 24px;
-        letter-spacing: 1.2px;
-    } 
-} */
+@media screen and (max-width: 768px) {
+    .home-text {
+        top: 24%;
+    }
+    .big-heading{
+        font-size: 1.1rem;
+    }
+    .home-info{
+        font-size:0.5rem;
+        line-height: 1;
+      margin-bottom:0;
+    }
+    .title-img{
+        padding-top:15%;
+    }
+
+    .navbar-brand,.offcanvas-brand{
+        font-size:1.1rem;
+    }
+   .home-btn,p,.card-btn{
+        font-size: 0.5rem;
+        padding: 1%;
+   }
+   #browse{
+    padding: 0;
+   }
+   h2{
+    font-size: 0.8rem;
+   }
+   .browse-text{
+    padding:2rem 0.5rem 0;
+   }
+   .browse-column{
+    padding: 0 1.5rem 0;
+   }
+   #about{
+    margin:20px;
+   }
+}
+
 
 /*font-family: 'Alkatra', cursive;
 font-family: 'Merienda', cursive;
